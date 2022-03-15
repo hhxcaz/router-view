@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 320px;
+	max-width: 750px;
+	margin: 0 auto;
+	padding-bottom: 2.9rem;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+li {
+	list-style: none;
+}
+
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li,
+span {
+	border: 0;
+	border-radius: 0.625rem;
+	box-shadow: -1px -1px 1px 2px rgba(255, 255, 255, .6);
+}
+
+@media screen and (min-width: 320px) {
+	html {
+		font-size: 16px !important;
+	}
+}
+
+@media screen and (min-width: 430px) {
+	html {
+		font-size: 21.5px !important;
+	}
+}
+
+@media screen and (min-width: 590px) {
+	html {
+		font-size: 29.5px !important;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	html {
+		font-size: 37.5px !important;
+	}
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.red {
+	border-color: #6A816D;
+	color: red;
+}
+
+.content {
+	padding: 10px;
+	width: 100%;
+}
+
+.content video {
+	width: 100%;
+	height: 220px;
+	border-radius: 0.625rem;
+
+}
+
+a:visited {
+	color: red;
+}
+
+h1,
+h2,
+h3 {
+	margin-top: 15px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+.b {
+	margin: 10px 0;
+}
+
+.b a,
+.c a {
+	margin: 5px;
+	padding: 0 5px;
+	float: left;
+	display: block;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	border-radius: 0.625rem;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.d {
+	overflow: hidden;
+	font-size: 0px;
+	height: 0px;
+}
+
+.b a:visited {
+	color: red;
+	border: 1px solid red;
+}
+.q {
+	position: absolute;
+	display: block;
+	top: 30vh;
+	right: 30vw;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	border-radius: 10px;
+	color: #333333;
+	box-shadow: -1px -1px 1px 2px rgba(85, 85, 127, 0.6);
+}
+#history {
+	position: absolute;
+	display: none;
+	padding: 10px;
+	top: 50vh;
+	left: 50vw;
+	min-width: 200px;
+	max-height: 200px;
+	height: 200px;
+	background-color: rgba(170, 170, 255, 0.5);
+	font-size: 16px;
+	text-align: center;
+}
+#history #a{
+	max-height: 150px;
+	overflow: hidden;
+}
+#history #a a{
+	display: block;
+	margin: 2px 3px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #333;
+	border-radius: 10px;
+	box-shadow: -1px -1px 1px 2px rgba(85, 85, 127, 0.6);
+}
+#history #in {
+	position: absolute;
+	top: 0;
+	left: -62px;
+	width: 60px;
+	height: 200px;
+	box-shadow: none;
+}
+#history #in input {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	text-align: center;
+	line-height: 30px;
+	background-color: transparent;
+	border-radius: 10px;
+	color: #333333;
+	box-shadow: -1px -1px 1px 2px rgba(85, 85, 127, 0.6);
+	
+}
